@@ -1,0 +1,16 @@
+.up{
+
+    height: 50px;
+    width: 50px;
+    background: turquoise;
+    font-size: 20px;
+    position: fixed;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 10px;
+    border: solid 6px azure;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 2px 2px 3px  gray;
+
+}

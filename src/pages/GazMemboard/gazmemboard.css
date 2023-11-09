@@ -1,0 +1,17 @@
+#gazmmbrd{
+    border: dotted rgba(100, 148, 237, 0.515);
+    border-radius: 20%;
+}
+p{
+    color: rgba(26, 26, 26, 0.718);
+    line-height: 2rem;
+    
+}
+h3{
+    font-weight: bolder;
+}
+li{
+    font-size: large;
+    font-weight: bolder;
+    line-height: 2rem;
+}

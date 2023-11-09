@@ -1,0 +1,26 @@
+#logo{
+    width: 4rem;
+    height: 3rem;
+    padding: 2px;
+    margin-top: 0.5rem;
+    border: solid 2px #fe6666;
+    border-radius: 5px;
+    background-color: rgba(128, 255, 0, 0.051);
+    
+ 
+    
+    
+}
+.nav-item :hover{
+    
+    border-bottom: outset 2.5px #fe6666;
+    border-radius: 7px;
+  
+    
+}
+.nav-link{
+    border-radius: 7px;
+}
+#search{
+    min-width: 1rem;
+}
