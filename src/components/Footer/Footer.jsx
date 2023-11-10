@@ -48,12 +48,13 @@ return (
 <div className="col-md-5">
 
     
-      <a
-        className="btn btn-link btn-floating btn-lg text-dark m-1 fw-bolder"
+      <div className=" m-1 fw-bolder text-light"
         
         role="button"
         data-mdb-ripple-color="dark"
-        ><i className="bi bi-telephone-forward-fill"></i>۰۹۱۹۸۲۱۵۶۵۰</a>
+        >
+  <i className="bi bi-telephone-forward-fill "></i>
+        ۰۹۱۹۸۲۱۵۶۵۰</div>
 
         </div>
     

@@ -1,7 +1,7 @@
 import "./Home.css"
 import React, { useState, useEffect } from 'react';
 import Scrollup from "../../components/scrollup/Scrollup";
-import Footer from "../../components/Footer/footer";
+import Footer from "../../components/Footer/Footer";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -56,6 +56,7 @@ const Home = ()=>{
   
   <div className="col-md-5 mt-5">
  <br />
+<h1 className="h1 text-center">گل بافنکا</h1>
  <br />
  <br />
  <div className="justify-content-center d-flex">
@@ -70,6 +71,7 @@ const Home = ()=>{
   
   </div>
 </div>
+<br />
 <br />
 
     </div>
@@ -92,35 +94,30 @@ const Home = ()=>{
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className="mySwiper shadow-lg"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg"  />
+          <img src="src/img/image.png"  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="src/img/image2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="src/img/image3.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="src/img/image4.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img src="src/img/image5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img src="src/img/image6.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img src="src/img/image7.jpg" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
+
       </Swiper>
 
 
@@ -133,7 +130,7 @@ const Home = ()=>{
 
 <div className="card text-center" style={{maxWidth: 50 + "%"}} >
   <div className="card-body" >
-    <h5 className="card-title"><i className="bi bi-gear-wide-connected display-1 text-success opacity-75"></i></h5>
+    <h5 className="card-title"><i className="bi-gear-wide-connected display-1 text-success"></i></h5>
     <p className="card-text">ساخت و ساز ما بهترین کیفیت انجام شده صورت میگیرد برای دیدن بخشی از کار کلیک کنید</p>
     <a href="#" className="btn btn-success bg-success ">کلیک شود</a>
   </div>
