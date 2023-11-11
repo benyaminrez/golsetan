@@ -39,9 +39,9 @@ return (
 
 </div>
 <div className="col-md-2 justify-content-between d-flex">
-<div className="fw-bolder mt-3">کیانسرما</div>
+<div className="fw-bolder mt-3">گلستان</div>
 <img src="src/img/logo.png" className="m-2" alt="" id="logo" />
-<div className="fw-bolder mt-3">kiansarma</div>
+<div className="fw-bolder mt-3">golsetan</div>
     
     
 </div>
@@ -66,7 +66,7 @@ return (
 
   <div id="copyright" className="text-center text-dark p-3" >
     © 2023 Copyright:
-    <a className="text-dark" >kiansarma.com</a>
+    <a className="text-dark" >golsetan.com</a>
   </div>
   </footer>    
     </>
