@@ -27,23 +27,24 @@ const Home = ()=>{
 <div className="position shadow-lg mt-0 m-3">
 
     <img src="src/img/borderf.png" className="w-100" alt="" />
+
+
+    
   <div className="display-1 text-center text-success fw-bolder" id="welcome">
     به فروشگاه
     <br /> گل <span>سِ</span>تان خوش آمدید
   </div>
 </div>
   <hr />
-  <div className="container ">
-    <div className="row">
+  
+    <div className="container">
 
-<div className="col-md-6">
-  <br />
-  <br />
 
   <div className="display-4 fw-bold text-center text-success titr">گل <span>سِ</span>تان</div>
-  <br />
+<br />
 
-  <p>  
+
+  <p className="text-center">   
   گل و گیاه تازه و با کیفیت از ویژگی های مهم یک گلفروشی محسوب می شود. علاوه بر آن، تنوع محصولات برای مناسب های مختلف به شما کمک میکند تا بهترین انتخاب را داشته باشید.
 با خرید گل یا خرید گیاهان اپارتمانی، عزیزان خود را در هر کجا که هستند سوپرایز کنید و حس لذت بخشی به آنها هدیه دهید.
 گلفروشی شرمیلا جزو گل فروشی های آنلاین تهران میباشد که با توجه به تنوع محصولات به شما حق انتخاب انواع دسته گل ، سبد گل ، باکس گل ، تاج گل ، جام گل ، گلدان گل و گیاه ، بسته های گل و شکلات و رز جاودان را برای مناسبت های مختلف اعم از هدیه تولد ، عرض تبریک ، ترحیم و تسلیت ، افتتاحیه فروشگاه ، روز مادر ، روز پدر ، برای همسر با قیمت ارزان و مناسب ارائه می دهد.
@@ -52,29 +53,16 @@ const Home = ()=>{
   </p>
   
   </div>
-  <div className="col-md-1"></div>
+ 
   
-  <div className="col-md-5 mt-5">
- <br />
-<h1 className="h1 text-center">گل بافنکا</h1>
- <br />
- <br />
- <div className="justify-content-center d-flex">
+  
 
-  <img src="src/img/2.jpg" className="imgthumbnail m-1" alt="..." />
-  <img src="src/img/3.jpg" className="imthumbnail m-1" alt="..." />
- </div>
- <div className="justify-content-center d-flex">
-  <img src="src/img/4.jpg" className="imgumbnail m-1" alt="..." />
-  <img src="src/img/5.jpg" className="img-thmbnail m-1" alt="..." />
-  </div>
   
-  </div>
-</div>
+
 <br />
 <br />
 
-    </div>
+    
 
 
 
@@ -130,7 +118,7 @@ const Home = ()=>{
 
 <div className="card text-center" style={{maxWidth: 50 + "%"}} >
   <div className="card-body" >
-    <h5 className="card-title"><img src="src/img/a.png"  alt="fellower" width={200 + "rem"}  /></h5>
+    <h5 className="card-title"><img src="src/img/a.png"  alt="fellower" width={150 + "rem"}  /></h5>
     <p className="card-text">ساخت و ساز ما بهترین کیفیت انجام شده صورت میگیرد برای دیدن بخشی از کار کلیک کنید</p>
     <a href="#" className="btn btn-success bg-success ">کلیک شود</a>
   </div>
@@ -153,29 +141,27 @@ const Home = ()=>{
 </div>
 
 
-<div className="container-fluid bg-light">
-<nav id="navbar-example2" className="navbar navbar-light bg-light px-3">
+<div className="bg-light shadow-lg">
+<nav id="navbar-example2" className="navbar navbar-light bg-light text-center ">
 <div className="navbar-brand text-success fw-bolder">
 <img className="shadow-lg mx-4 " src="src/img/logo.png" alt="" id="logo" />
   گلستان
 
 </div>
-  <ul className="nav nav-pills">
-    <li className="nav-item mx-2">
-      <a className="nav-link text-success" href="#scrollspyHeading1">First</a>
+  <ul className="nav nav-pills row justify-content-center d-flex container-fluid">
+    <li className="nav-item col-md-2 ">
+      <a className="nav-link text-success" href="#scrollspyHeading1">باکس های گل</a>
     </li>
-    <li className="nav-item mx-2">
-      <a className="nav-link text-success" href="#scrollspyHeading2">Second</a>
+    <li className="nav-item col-md-2 ">
+      <a className="nav-link text-success" href="#scrollspyHeading2">گیاهای خونگی</a>
     </li>
-    <li className="nav-item dropdown me-4">
-      <a className="nav-link bg-success text-light dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-      <ul className="dropdown-menu">
-        <li><a className="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-        <li><a className="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-        <li><hr className="dropdown-divider" /></li>
-        <li><a className="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-      </ul>
+    <li className="nav-item  col-md-2 ">
+      <a className="nav-link text-success" href="#scrollspyHeading3">گل های تزئینی</a>
     </li>
+    <li className="nav-item  col-md-2 ">
+      <a className="nav-link text-success" href="#scrollspyHeading4">انواع کاکتوس</a>
+    </li>
+   
   </ul>
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-example text-center" tabIndex="0">
@@ -236,18 +222,183 @@ const Home = ()=>{
 </div></SwiperSlide>
        
       </Swiper>
-  <h4 id="scrollspyHeading2">Second heading</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos quis reiciendis pariatur voluptates libero, odio fugiat laudantium minus sint, quisquam aspernatur ab cumque. Architecto ipsam officia nesciunt asperiores sequi?</p>
-  <h4 id="scrollspyHeading3">Third heading</h4>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempora provident cum quaerat ab accusamus. Nulla similique perspiciatis alias molestiae, ex ut, quisquam pariatur, error velit reprehenderit eius quibusdam cum?</p>
-  <h4 id="scrollspyHeading4">Fourth heading</h4>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita hic eveniet dolor quisquam perferendis tempore atque obcaecati, ipsa mollitia rem nihil similique, pariatur praesentium delectus quaerat perspiciatis error, cupiditate recusandae!</p>
-  <h4 id="scrollspyHeading5">Fifth heading</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero earum reiciendis ut exercitationem alias provident aliquid id, ratione dolores expedita labore sit distinctio quo illo, aut nobis. Quisquam, ducimus earum?</p>
+  <hr />
+  {/* apartemant fllower */}
+  <br />
+  <h3 id="scrollspyHeading2" className="fw-bolder m-3">گیاهای خونگی</h3>
+  <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper m-0 w-100 bg-success bg-opacity-75"
+      >
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+       
+      </Swiper>
+  <hr />
+  {/* decorative flowers */}
+ <br />
+ <h3 id="scrollspyHeading3" className="fw-bolder m-3">گل های تزئینی</h3>
+  <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper m-0 w-100 bg-danger bg-opacity-75"
+      >
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-danger">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-danger">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-danger">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-danger">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-danger">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+       
+      </Swiper>
+
+      <hr />
+  {/* kind  */}
+  <br />
+  <h3 id="scrollspyHeading4" className="fw-bolder m-3">انواع کاکتوس</h3>
+  <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper m-0 w-100 bg-success bg-opacity-75"
+      >
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+        <SwiperSlide><div className="card  shadow" >
+  <img src="src/img/image.png" className="card-img-top h-75" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-success">Go somewhere</a>
+  </div>
+</div></SwiperSlide>
+       
+      </Swiper>
+
 </div>
 <br />
+  <hr />
 </div>
 
+<div className="display-1 text-center text-success fw-bolder" id="ending">
+     فروشگاه گل<span>سِ</span>تان  
+  </div>
+
+  <img src="src/img/ending1.png" className="" width={100 + "%"} />
 
 
        <Footer/>
