@@ -401,9 +401,10 @@ const Home = ()=>{
   <img src="src/img/ending1.png" className="" width={100 + "%"} />
 
 
-       <Footer/>
+       
        
 
+        <Footer/>
         </>
     )
   }

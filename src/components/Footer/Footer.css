@@ -4,6 +4,18 @@
 }
 #copyright{
     
-    background-color: rgba(7, 42, 18, 0.2);
+    background-color: rgba(3, 19, 8, 0.711);
+    
 
 }
+.bg-green{
+    background-color: rgba(4, 50, 4, 0.605);
+}
+span{
+    color: #ef6666;
+  }
+  .map{
+    border: 3px solid lightgrey;
+    width: 60%;
+    border-radius: 10px;
+  }
