@@ -1,6 +1,8 @@
-#gazmmbrd{
-    border: dotted rgba(100, 148, 237, 0.515);
+#afs{
+    border: dotted rgba(7, 54, 25, 0.521);
     border-radius: 20%;
+    width: 60%
+
 }
 p{
     color: rgba(26, 26, 26, 0.718);
@@ -14,4 +16,10 @@ li{
     font-size: large;
     font-weight: bolder;
     line-height: 2rem;
+}
+#img{
+    width: 100%;
+    border: dotted rgba(7, 54, 25, 0.521);
+    border-radius: 20px;
+    margin-bottom: 50px;
 }

@@ -8,14 +8,18 @@ const Header = () =>{
       $(".navbar").addClass('bg-opacity-25')
       $('.navbar').removeClass('navbar-dark shadow')
       $(".bi").addClass('text-dark')
+      $(".basket").addClass('text-dark')
       $(".bi").removeClass('text-light')
       $("#logo").removeClass('bg-light')
+      $(".basket").removeClass('text-light')
     } else{
       $('.navbar').removeClass('bg-opacity-25 navbar-light')
       $(".navbar").addClass('navbar-dark shadow')
       $(".bi").addClass('text-light')
       $(".bi").removeClass('text-dark')
       $("#logo").addClass('bg-light')
+      $(".basket").addClass('text-light')
+      $(".basket").removeClass('text-dark')
     }    
   })
     return(
@@ -60,40 +64,24 @@ const Header = () =>{
         
         <li className="nav-item dropdown m-2">
           <a className="nav-link dropdown-toggle shadow " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                گاز ممبرد
+                درباره گل و گیاهان
           </a>
           <ul className="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to={"/GazMembrd"}>گاز ممبرد</Link></li>
-            <li><Link className="dropdown-item" >Another action</Link></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-
-        <li className="nav-item dropdown m-2">
-          <a className="nav-link dropdown-toggle shadow " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          تجهیزات و قطعات
-          </a>
-          <ul className="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><Link className="dropdown-item" to={"/ApartementFlowers"}>گل های آپارتمانی</Link></li>
+            <li><Link className="dropdown-item" to={"/KindCactus"} >انواع کاکتوس</Link></li>
             <li><hr className="dropdown-divider" /></li>
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
         
-
         <li className="nav-item dropdown m-2">
-          <a className="nav-link dropdown-toggle shadow " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-       کندانسینگ یونیت
-          </a>
-          <ul className="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+
+        <a className="nav-link  shadow " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link className=" basket text-dark"> <i className="bi bi-basket basket h4"></i> سبد خرید</Link>
+        </a>
+
         </li>
+
       
         <li className="nav-item dropdown m-2">
           <a className="nav-link dropdown-toggle shadow " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

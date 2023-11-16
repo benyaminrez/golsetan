@@ -11,9 +11,9 @@
     
     
 }
-.nav-item :hover{
+.nav-item  :hover{
     
-    border-bottom: outset 2.5px #fe6666;
+    border-bottom: outset 1px #fe6666;
     border-radius: 7px;
   
     
@@ -23,4 +23,10 @@
 }
 #search{
     min-width: 1rem;
+}
+
+.basket{
+    text-decoration: none;
+    
+    
 }
