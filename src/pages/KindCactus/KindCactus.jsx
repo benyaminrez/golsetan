@@ -40,7 +40,7 @@ const KindCactus = ()=>{
     <br />
     <br />
     <div className="row justify-content-center align-items-center g-2">
-        <div class="col-md-6">
+        <div className="col-md-6">
             <ul>
                 <li>جذابیت بیشتر دکوراسیون منزل</li>
                 <p>اضافه کردن یک گلدان طبیعی زیبا به گوشه‌ای از خانه، می‌تواند یک دکوراسیون بی‌روح را از این رو به آن رو کند. </p>
@@ -54,7 +54,7 @@ const KindCactus = ()=>{
                 </p>
             </ul>
         </div>
-        <div class="col-md-6"><img src="src/img/image4.jpg" id="img" alt="" /></div>
+        <div className="col-md-6"><img src="src/img/image4.jpg" id="img" alt="" /></div>
         
     </div>
     

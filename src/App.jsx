@@ -7,6 +7,7 @@ import ConectUs from "./pages/ConectUs/ConectUs"
 import ApartementFlowers from "./pages/ApartementFlowers/ApartementFlowers"
 import KindCactus from "./pages/KindCactus/KindCactus"
 import ScrollUp from "./components/scrollup/Scrollup"
+import Login from "./pages/login/Login"
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
 
 <Route path="/ConectUs"  element={<ConectUs />} />
 <Route path="/KindCactus"  element={<KindCactus />} />
+<Route path="/Login"  element={<Login />} />
 
 <Route path="/ApartementFlowers"  element={<ApartementFlowers />} />
 
