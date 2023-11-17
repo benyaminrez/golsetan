@@ -4,7 +4,8 @@ import Header from "./components/Header/Header"
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import ConectUs from "./pages/ConectUs/ConectUs"
-import GazMemboard from "./pages/GazMemboard/GazMemboard"
+import ApartementFlowers from "./pages/ApartementFlowers/ApartementFlowers"
+import KindCactus from "./pages/KindCactus/KindCactus"
 import ScrollUp from "./components/scrollup/Scrollup"
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
 <Route path="/About"  element={<About />} />
 
 <Route path="/ConectUs"  element={<ConectUs />} />
+<Route path="/KindCactus"  element={<KindCactus />} />
 
-<Route path="/GazMembrd"  element={<GazMemboard />} />
+<Route path="/ApartementFlowers"  element={<ApartementFlowers />} />
 
 
 {/* </Route>
